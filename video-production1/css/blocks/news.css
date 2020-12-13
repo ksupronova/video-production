@@ -1,0 +1,16 @@
+.news {
+  margin-bottom: 47px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__item {
+  width: 557px;
+  height: 407px;
+  margin-right: 25px;
+  flex: 1;
+}
+
+.news__item:last-child {
+  margin-right: 0;
+}

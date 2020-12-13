@@ -1,0 +1,26 @@
+.footer-container{
+  margin-top: auto;
+}
+
+.footer-container__content {
+  border-top: 1px solid #353538;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container__section {
+  height: 134px;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align-right {
+  justify-content: flex-end;
+}

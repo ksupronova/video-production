@@ -1,0 +1,30 @@
+.btn {
+  padding: 18px 55px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 35px;
+}
+
+.btn--color--ginger{
+  background: #FF3D00;
+  color: white;
+}
+
+.btn--color--ginger:hover{
+  background: #FF3D00;
+  box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+}
+
+.btn--color--white{
+  background: #FFFFFF;
+  border: 2px solid #FF5500;
+  color: #FF3D00;
+}
+
+.btn--small {
+  width: 168px;
+  height: 55px;
+  padding: 18px 40px;
+}

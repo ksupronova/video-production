@@ -1,0 +1,49 @@
+.pager {
+  margin-bottom: 141px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pager--theme--light .pager__item-active .pager__link{
+  color: #fff;
+}
+
+.pager--theme--light .pager__link:hover{
+  color: #fff;
+}
+
+.pager__services {
+  margin-bottom: 23px;
+}
+
+.pager__display {
+  margin-right: 24px;
+}
+
+.pager__list {
+  display: flex;
+  align-items: center;
+}
+
+.pager__item {
+  text-align: center;
+}
+
+.pager__link:hover{
+  background: #FF5500;
+}
+
+.pager__item-active .pager__link {
+  background: #FF5500;
+}
+
+.pager__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+}
