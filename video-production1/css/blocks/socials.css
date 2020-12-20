@@ -21,7 +21,7 @@
 }
 
 .socials__item--icon--tlg .socials__link {
-  background-image: url(./img/icons/telegram.png);
+  background: url(../../img/icons/css_sprites.png) -66px -10px;;
 }
 
 
@@ -30,7 +30,7 @@
 }
 
 .socials__item--icon--vk .socials__link {
-  background-image: url(./img/icons/vk.png);
+  background: url(../../img/icons/css_sprites.png) -66px -66px;
 }
 
 
@@ -39,7 +39,7 @@
 }
 
 .socials__item--icon--fb .socials__link {
-  background-image: url(./img/icons/f.png);
+  background: url(../../img/icons/css_sprites.png) -10px -66px;
 }
 
 
@@ -48,7 +48,7 @@
 }
 
 .socials__item--icon--inst .socials__link {
-  background-image: url(./img/icons/in.png);
+  background: url(../../img/icons/css_sprites.png) -10px -10px;
 }
 
 

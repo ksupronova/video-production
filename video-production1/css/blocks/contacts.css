@@ -16,7 +16,54 @@
 }
 
 .contacts__dropdown-title {
+  position: relative;
+  display: inline-block;
+}
+
+.contacts__dropdown-title:hover .contacts-dropdown__work{
+  right: 0;
+  opacity: 0.8;
+}
+
+.contacts-dropdown__link {
   font-size: 13px;
   text-decoration: underline;
-  color: #FF3D00
+  color: #FF3D00;
 }
+
+.contacts-dropdown__work {
+  position: absolute;
+  background: #FFFFFF;
+  opacity: 0.8;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 22px 19px;
+  width: 160px;
+  color: #1E1F20;
+  font-size: 13px;
+  top: 100%;
+  right: -10000px;
+  opacity: 0;
+  transition: opacity .4s;
+}
+
+.contacts-dropdown__work::before {
+  content: '';
+  display: block;
+  height: 30px;
+  left: 0;
+  right: 0;
+  top: -29px;
+  position: absolute;
+}
+
+.contacts-dropdown__work::after{
+  content: "";
+  border: 20px solid transparent; border-bottom: 20px solid #FFFFFF;;
+  display: block;
+  position: absolute;
+  top: -27px;
+  right: 33px;
+
+}
+
