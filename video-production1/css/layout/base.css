@@ -58,7 +58,7 @@ button {
 }
 
 .main-page-wrapper {
-  background: url(./img/bg/hero.png) center top no-repeat, url(./img/bg/bottom-pic.png) right bottom 306px no-repeat;
+  background: url(../../img/bg/hero.png) center top no-repeat, url(../../img/bg/bottom-pic.png) center bottom 294px no-repeat;
 }
 
 .container {
